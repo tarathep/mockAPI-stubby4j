@@ -8,5 +8,6 @@
 Run CLI > ```java -jar stubby4j-7.0.0.jar -l 0.0.0.0 -d config/config.yaml```
 
 ## Docker
+https://hub.docker.com/r/kietara/mockapi-stubby4j
 - Run CLI > ```docker run -it --rm --name mockapi -p 8882:8882 -p 8889:8889 mockapi-stubby4j:1.0.0```
 - Custom Config > ```docker run -it --rm --name mockapi -p 8882:8882 -p 8889:8889 -v path/to/config:/app/config mockapi-stubby4j:1.0.0```
