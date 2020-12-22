@@ -1,0 +1,19 @@
+-  request:
+      method: GET
+      url: /mock3
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      body: '{"id": 1, "name": "Up1"}'
+
+-  request:
+      method: GET
+      url: /mock2
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: data1.json
